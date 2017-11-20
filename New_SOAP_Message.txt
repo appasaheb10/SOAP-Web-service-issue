@@ -1,0 +1,26 @@
+2017-11-17 18:07:37.274 | 3 | ERROR Asset EndPoint : <s:Envelope xmlns:s="http://schemas.xmlsoap.org/soap/envelope/">
+  <s:Header>
+    <Action s:mustUnderstand="1" xmlns="http://schemas.microsoft.com/ws/2005/05/addressing/none" />
+  </s:Header>
+  <s:Body xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+    <createTermianl xmlns="http://www.ballytech.com/sds/asset">
+      <arg0 xmlns="">481</arg0>
+      <arg1 xmlns="">FW03</arg1>
+      <arg2 xmlns="">FW03</arg2>
+      <arg3 xmlns="">CASH_DESK</arg3>
+      <arg4 xmlns="">10355</arg4>
+      <arg5 xmlns="">931</arg5>
+    </createTermianl>
+  </s:Body>
+</s:Envelope> 
+2017-11-17 18:07:46.051 | 3 | ERROR Asset EndPoint : <soap:Envelope xmlns:soap="http://schemas.xmlsoap.org/soap/envelope/">
+  <SOAP-ENV:Header xmlns:SOAP-ENV="http://schemas.xmlsoap.org/soap/envelope/" />
+  <soap:Body>
+    <ns2:createTermianlResponse xmlns:ns2="http://www.ballytech.com/sds/asset">
+      <ns2:return>
+        <execFine>false</execFine>
+        <number>Z000000481</number>
+      </ns2:return>
+    </ns2:createTermianlResponse>
+  </soap:Body>
+</soap:Envelope> 
